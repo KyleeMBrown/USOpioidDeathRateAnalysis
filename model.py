@@ -35,6 +35,27 @@ d.corr()
 
 #Method 1: Perform Linear Regression to predict the 2021 Death Rate
 
+method1 = LinearRegression()
+
+#Use found polynomial equation to predict y:
+method1.predict(x)
+
+#Find the score of the model
+method1.score(x,y)
+
+#plot values:
+
+y_pred = method1.predict(x)
+plt.scatter(x,y, color="blue", label ="Data Points")
+plt.plot(x, y_pred, '--', color="hotpink", label="Linear Regression")
+plt.title('Linear Regression of Opiod Death Rate')
+plt.xlabel('x')
+plt.ylabel('y')
+plt.legend()
+
+#Predict opiod death rate in 2021:
+method1.predict([[2021]])
+
 model_1 = data.poly1d(data.polyfit(x, y, 1))
 model_2 = data.poly1d(data.polyfit(x, y, 2))
 model_3 = data.poly1d(data.polyfit(x, y, 3))
