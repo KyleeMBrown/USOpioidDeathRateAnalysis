@@ -1,5 +1,5 @@
 # OpiodDeathRateAnalysismodels
-Analystical Data Models representing US Opioid Death rates 
+Analytical Data Models representing US Opioid Death rates 
   Goal:
     predict the death rate for 2021
     Find which method was most useful:
