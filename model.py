@@ -253,3 +253,20 @@ plt.scatter(x,y, color='orange', label="Original Data Pts.")
 plt.scatter([2022,2023,2024], predicted_vals, color='hotpink', label = 'Model1 Predictions')
 plt.title('Prediction of the Next 3 Years Using The most Accurate Model')
 plt.legend(loc='lower right')
+
+#In Conclusion, Linear Regression seemed to be the best method that fit my data,  however I noticed that if my data were to become
+# less linear and more complex, I would find polynomial regression to the nth degree to be more beneficial. 
+# In addition, if I wanted my model to be scalable and if my data was complex and bigger, I would use the split test/train method. 
+# I could also run more tests using the split data method altering the test_size and random state, but I am still learning and hope to do another project solely using method 3 on a bigger set of data. 
+# According to the Linear Regression model (method 1), We should see the rate of Prescription Opiod Deaths in The US increase which matches the trend of the current data over the last 3 years up to now. 
+# This proves that this mdodel is the most accurate for this amount of data
+
+#Best Method: Method 1 - Linear Regression 
+#   2021 Death rate Prediction: 5.73896104
+#   Actual Death Rate: 8.04
+
+#Final Words: 
+#   According to my other 2 models, a sudden increase in US Prescription Opium death rates happened somewhere between 2019 and 2021, one cause of this increase could be traced back to COVID-19. From the data 
+# I can confirm that If this increase did not happen the data would have either trended upward at a slower rate or possibly even trended 
+# downward for the first time in a long time. This shows that furthur research and analysis can be done to pinpoint the cause of 
+# the sudden increase and get closer to that downward trend 
